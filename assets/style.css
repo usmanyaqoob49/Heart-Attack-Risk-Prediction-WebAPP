@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Set background color to black */
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the H1 elements */
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+/* Style the H2 elements */
+h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+/* Style the H3 elements */
+h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Style the H4 elements */
+h4 {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+/* Style the buttons */
+button {
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the input fields with smaller size and center them */
+input[type="number"] {
+    width: 10%; /* Set the width to 50% to make them smaller */
+    padding: 0.2em;
+    font-size: 0.8em; /* Reduce the font size */
+    margin: 0.2em 0;
+    background-color: #444; /* Gray background color */
+    color: #FFF; /* White text color */
+}
+
+
+/* Style the dropdown */
+.dash-dropdown {
+    width: 30%;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: #444;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style the graphs */
+.graph-container {
+    width: 100%;
+    padding: 1em;
+    background-color: #222;
+    border-radius: 10px;
+}
